@@ -62,6 +62,7 @@ a:hover {
   height: auto;
   display: block;
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .seasonsweet-img {
