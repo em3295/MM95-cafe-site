@@ -140,3 +140,22 @@ a:hover {
   align-self: flex-end;
 }
 
+@media (max-width: 800px) {
+
+.aboutustopic {
+  display: block;
+}
+
+.ourcoffeetopic {
+  display: block;
+}
+
+.footer {
+    /* display: block; */
+    text-align: center;
+  }
+
+.logo-containe {
+  width: 100%;
+}
+}
