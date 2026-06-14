@@ -100,7 +100,6 @@ a:hover {
 .aboutus-text-container,
 .ourcoffee-text-container {
   align-items: center;
-  /* text-align: center; */
   line-height: 2.3;
   padding: 56px 64px;
 }
@@ -186,5 +185,4 @@ a:hover {
   width: 100%;
   justify-content: space-between;
 }
-
 }
