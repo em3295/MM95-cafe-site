@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+header h1 {
+  font-size: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(241, 241, 223, 0.534);
+}
+
+a:hover {
+  color: rgb(51, 143, 224);
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 32px;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.concept {
+  text-align: center;
+  background-color: rgba(241, 241, 223, 0.534);
+  font-size: 13px;
+  padding: 20px;
+}
+
+.menu {
+  font-size: 13px;
+}
+
+.menu-tittle {
+  text-align: center;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.menu-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding: 0 20px;
+}
+ 
+.menu-coffee-container, 
+.menu-cake-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.coffee-img img,
+.cake-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.seasonsweet-img {
+  margin: 20px 0;
+}
+.seasonsweet-img img {
+  width: 100%;
+  display: block;
+}
+
+.aboutustopic,
+.ourcoffeetopic {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+
+.aboutus-img,
+.aboutus-text-container,
+.ourcoffee-img,
+.ourcoffee-text-container {
+  flex: 1;
+  min-width: 0;
+}
+
+.aboutus-img img,
+.ourcoffee-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.aboutus-text-container,
+.ourcoffee-text-container {
+  align-items: center;
+  /* text-align: center; */
+  line-height: 2.3;
+  padding: 56px 64px;
+}
+
+.ourcoffeetopic {
+  flex-direction: row-reverse;
+  margin-top: 10px;
+}
+
+/* footerのcss */
+
+.aboutus-text-container,
+.ourcoffee-text-container {
+  font-size: 10px;
+  background-color: rgba(241, 241, 223, 0.534);
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  font-size: 10px;
+  margin: 20px 0 10px 0px;
+  padding: 10px 20px;
+  border-top: 1px solid gray;
+  /* background-color: rgba(241, 241, 223, 0.534); */
+}
+
+.logo-container,
+.access-container,
+.daytime-container {
+  width: calc((100% - 40px) / 3);
+  height: auto;
+}
+
+.mm95 {
+  align-self: flex-end;
+}
+
