@@ -121,27 +121,48 @@ a:hover {
 .footer {
   display: flex;
   width: 100%;
-  gap: 20px;
+  justify-content: space-between;
   font-size: 10px;
   margin: 20px 0 10px 0px;
   padding: 10px 20px;
   border-top: 1px solid gray;
-  /* background-color: rgba(241, 241, 223, 0.534); */
 }
 
 .logo-container,
-.access-container,
-.daytime-container {
-  width: calc((100% - 40px) / 3);
+.footer-sp
+ {
+  width: calc((100% - 20px) / 2);
   height: auto;
 }
 
+.footer-sp {
+  display: flex;
+  justify-content: space-between;
+}
+
 .mm95 {
-  align-self: flex-end;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
 }
 
 @media (max-width: 800px) {
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-nav-list {
+  justify-content: center;
+}
+
+.header-nav {
+  text-align: center;
+}
 .aboutustopic {
   display: block;
 }
@@ -151,11 +172,19 @@ a:hover {
 }
 
 .footer {
-    /* display: block; */
-    text-align: center;
+    display: block;
   }
 
-.logo-containe {
+.logo-container {
+  display: block;
   width: 100%;
+  text-align: center;
 }
+
+.footer-sp {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 }
